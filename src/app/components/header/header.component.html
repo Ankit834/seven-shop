@@ -1,0 +1,16 @@
+<nav class="navbar navbar-light bg-light">
+  <a class="navbar-brand app-title"
+    ><img
+      src="assets/images/logo.png"
+      width="40"
+      height="40"
+      class="d-inline-block align-top"
+      alt=""
+      loading="lazy"
+    />Seven Shop</a
+  >
+  <button class="cart" (click)="openDialog()">
+    <img src="assets/images/cart.png" />
+    <span class="badge badge-light item-count">{{ totalItemsCount }}</span>
+  </button>
+</nav>

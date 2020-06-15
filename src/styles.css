@@ -1,0 +1,14 @@
+/* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+  height: fit-content;
+}
+body {
+  margin: 0;
+}
+
+.mat-dialog-container {
+  background: white;
+  color: black;
+}

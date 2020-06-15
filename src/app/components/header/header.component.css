@@ -1,0 +1,14 @@
+.app-title {
+  display: flex;
+  align-items: center;
+}
+
+.item-count {
+  position: absolute;
+  background: yellow;
+}
+
+.cart {
+  border: 0;
+  background: none;
+}

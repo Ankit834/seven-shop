@@ -1,0 +1,7 @@
+<div class="row mb-2 d-flex justify-content-center" *ngIf="cartItems">
+  <ng-container *ngFor="let p of products; let i = index">
+    <div>
+      <product-card [product]="p" [cart-items]="cartItems"></product-card>
+    </div>
+  </ng-container>
+</div>

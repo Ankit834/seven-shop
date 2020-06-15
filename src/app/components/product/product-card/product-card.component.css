@@ -1,0 +1,19 @@
+.card {
+  margin: 15px;
+}
+
+.card-footer {
+  padding: 0;
+}
+
+.card-footer button {
+  cursor: pointer;
+}
+
+.description {
+  font-size: 0.7rem;
+}
+
+.main-detail {
+  font-size: large;
+}
